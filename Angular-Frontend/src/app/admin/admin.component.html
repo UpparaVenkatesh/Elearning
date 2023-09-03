@@ -1,0 +1,60 @@
+ <head>
+ 
+<style>
+    ul {
+       position: relative;
+       left: 700px;
+      
+    }
+    h1 {
+       position: relative;
+       left: 50px;
+      
+    }
+    a{
+     font-size: 17px;
+    }
+     </style>
+     </head>
+    <body>
+
+ <!-- ======= Top Bar ======= -->
+
+
+     <header id="header" class="fixed-top">
+     <div class="container d-flex align-items-center">
+   
+       <h1 class="logo mr-auto">E-Learning<span>.</span></h1>
+      
+   
+       <nav class="nav-menu d-none d-lg-block">
+         <ul>
+          
+           
+          <li routerLinkActive="active">
+            <a routerLink="home">Home</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLink="course">Add Course</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="viewusers">View User</a>
+    </li>
+          <li routerLinkActive="active">
+            <a routerLink="viewfeedback">View Feedback</a>
+        </li>
+      
+      <li routerLinkActive="active">
+        <a routerLink="logout">LOGOUT</a>
+    </li>
+         </ul>
+         <router-outlet> </router-outlet>
+       </nav><!-- .nav-menu -->
+   
+     </div>
+   </header>
+ 
+ 
+   <!-- Template Main JS File -->
+   <script src="assets/js/main.js"></script>
+   </body>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: 91817
+Build-Jdk: 17.0.3
+Implementation-Title: crud
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.product
+Implementation-URL: https://spring.io/projects/spring-boot/crud
+Created-By: Maven Integration for Eclipse
+

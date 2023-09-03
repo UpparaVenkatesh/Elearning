@@ -1,0 +1,15 @@
+#login{
+    
+    background-repeat: no-repeat;
+   
+    border-radius: 25px;
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+}
+#form{
+    position:relative;
+    left:200px;
+    width:800px;
+    border-radius: 25px;
+    background-color: white;
+}

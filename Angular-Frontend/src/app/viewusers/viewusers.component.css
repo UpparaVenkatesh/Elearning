@@ -1,0 +1,36 @@
+#login{
+    
+    background-repeat: no-repeat;
+   
+    border-radius: 25px;
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+}
+#form{
+    position:relative;
+    left:300px;
+    border-radius: 25px;
+    background-color: white;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  #customers tr:nth-child(odd){background-color: #f2f2f2;}
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }

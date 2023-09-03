@@ -1,0 +1,20 @@
+#contact{
+    border-radius: 25px;
+    background-color: #92C3D7;
+}
+
+#address{
+    border-radius: 25px;
+   position:relative;
+   top:50px;
+   left:150px;
+    background-color:white;
+     
+}
+#map{
+    border-radius: 25px;
+}
+#profiledata{
+    color:#34495E;
+    font-family: "Trirong", serif;
+}
